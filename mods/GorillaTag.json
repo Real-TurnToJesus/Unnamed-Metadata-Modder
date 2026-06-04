@@ -1,0 +1,197 @@
+{
+    "Custom Text": {
+        "description": "This adds custom text to some stuff.",
+        "strings": [
+            {"original": "CHECKING DAILY ROCKS...", "new": "Jesus loves you"},
+            {"original": "SUCCESSFULLY GOT DAILY ROCKS!", "new": "Jesus loves you"},
+            {"original": "WAITING TO GET DAILY ROCKS...", "new": "Jesus loves you"},
+            {"original": "CREDITS", "new": "<color=red>https://guns.lol/turntojesus <color=#718EFF>\n\n- METADATA CREDITS -\n\nJESUS (our lord and savior)\nTTJ (made the metadata)\nSBEAR AND TTJ (made the API)\nCHIP (made the 32-bit version and then no acid method)\nBOWTIE AND TOXXIN (helped me with the OS in the menu)\nLEO (made this method and the hoverboard method and the ball method)\nROUGHT (made the ambush method)\n\n- GAME CREDITS -\n"}
+        ]
+    },
+    "Touch Ups": {
+        "description": "Edits some text to make it look better in-game.",
+        "strings": [
+            {"original": "OFFLINE", "new": "<color=red>OFFLINE</color>"},
+            {"original": "Outfit #", "new": "| OUTFIT #"}
+        ]
+    },
+    "Custom Leaderboard": {
+        "description": "Edits the leaderboard text to make it funny.",
+        "strings": [
+            {"original": "Player                     Color         Level        MMR", "new": "Monkey                     Race          Level        MMR"},
+            {"original": "\n  PLAYER     COLOR  MUTE   REPORT", "new": "\n  MONKEY      RACE   STFU    BAN"},
+            {"original": "MUTE                                REPORT\n", "new": "STFU                                  BAN\n"},
+            {"original": "MUTE                HATE SPEECH    TOXICITY     CHEATING       CANCEL\n", "new": "STFU                N WORD SPAM    PRROXZY       HACKER        NVM\n"}
+        ]
+    },
+    "Anti Acid Kill": {
+        "description": "Makes it so that you can't die to the acid.",
+        "strings": [
+            {"original": "PlayerStateChangeRPC", "new": "_"}
+        ]
+    },
+    "Custom Camera Text": {
+        "description": "Edits some of the camera text to make it look a little better in-game.",
+        "strings": [
+            {"original": "RECORD", "new": "-RECORD-"},
+            {"original": "GO LIVE", "new": "-GO LIVE-"}
+        ]
+    },
+    "Fake Purchase Items": {
+        "description": "Makes it look like you bought an item that isn't for sale or you can't afford.",
+        "strings": [
+            {"original": "INSUFFICIENT SHINY ROCKS FOR THIS ITEM!", "new": "SUCCESS! ENJOY YOUR NEW ITEM!"},
+            {"original": "ERROR IN PURCHASING ITEM! NO MONEY WAS SPENT. SELECT ANOTHER ITEM.", "new": "SUCCESS! ENJOY YOUR NEW ITEM!"}
+        ]
+    },
+    "No Ghosts": {
+        "description": "Removes the annoying ghosts during the Halloween update.",
+        "strings": [
+            {"original": "RemoteActivateGhost", "new": "_"},
+            {"original": "WanderingGhost", "new": "_"},
+            {"original": "RPC_RemoteActiveGhost", "new": "_"},
+            {"original": "LurkerGhost", "new": "_"}
+        ]
+    },
+    "Anti Monster Kill": {
+        "description": "Makes it so that the things in the ghost reactor can't kill you.",
+        "strings": [
+            {"original": "ApplyEnemyHitPlayerRPC", "new": "_"},
+            {"original": "ApplyHitRPC", "new": "_"}
+        ]
+    },
+    "Silent Hand Taps": {
+        "description": "Makes it so that no one can hear your hand taps, but you still can.",
+        "strings": [
+            {"original": "OnHandTapRPC", "new": "_"},
+            {"original": "OnHandTapRPCShared", "new": "_"},
+            {"original": "PlayHandTapShared", "new": "_"},
+            {"original": "RPC_PlayHandTap", "new": "_"},
+            {"original": "StealthHandTapFX", "new": "_"}
+        ]
+    },
+    "Clear Water": {
+        "description": "Makes it so that the water is crystal clear.",
+        "strings": [
+            {"original": "_GlobalCameraOverlapWaterSurfacePlane", "new": "_"},
+            {"original": "_GlobalMainWaterSurfacePlane", "new": "_"},
+            {"original": "_GlobalUnderwaterEffectsDistanceToSurfaceFade", "new": "_"},
+            {"original": "_GlobalUnderwaterFogColor", "new": "_"},
+            {"original": "_GlobalUnderwaterFogParams", "new": "_"},
+            {"original": "_GlobalWaterTintColor", "new": "_"},
+            {"original": "_GLOBAL_ZONE_LIQUID_TYPE__WATER", "new": "_"}
+        ]
+    },
+    "No Water Splashes": {
+        "description": "Makes it so that no one can see your water splashes, but you still can.",
+        "strings": [
+            {"original": "RPC_PlaySplashEffect", "new": "_"},
+            {"original": "WaterSplashEffect", "new": "_"},
+            {"original": "WaterRippleEffect", "new": "_"}
+        ]
+    },
+    "Break Mod Checkers + Infection Stuff": {
+        "description": "This gives you the rock monkey speed boost when you are a lava monkey, when you are at the top of the leaderboard in infection it switches to rock monkey reguardless of the player count, always in rock monkey mode with 4 players, reguardless of your leaderboard position, sometimes spawns you in tutorial, doesn't tag you immediately when you join a lobby, doesn't freeze you when you are tagged, and it also breaks mod checkers' UIs that Steam users use when they check you.",
+        "strings": [
+            {"original": "didTutorial", "new": "<size=1000><color=red>#####################################################################"}
+        ]
+    },
+    "Monke Blocks Stuff": {
+        "description": "Lets you trap players, hold infinite blocks, give other people platforms, take blocks out of the map, and glitch them. Everything requires master client besides the trapping part, hold infinite blocks part, and the stealing part. To steal, pick up a block that no one else has touched, let someone take it (for you it won't move), and then grab it from the floor (it won't be there for others), and for them it will teleport to your hand. To hold/stack infinite blocks, just spam grab some blocks that no one else has touched on the shelves, and most of the time you won't see them, but others can. To trap people, just grab a lot of blocks and then move your hand around small people or push big people with your hand that you have the blocks on. To give other people platforms, it will do it on it's own eventually when you are at the top of the leaderboard. To take them out of the map, just take them out when you are at the top of the leaderboard.",
+        "strings": [
+            {"original": "PieceDestroyedRPC", "new": "_"},
+            {"original": "PieceDroppedRPC", "new": "_"},
+            {"original": "PieceEnteredDropZoneRPC", "new": "_"},
+            {"original": "RequestDropPieceRPC", "new": "_"}
+        ]
+    },
+    "No Snowball Fling": {
+        "description": "Makes it so that people can't fling you with the big snowballs.",
+        "strings": [
+            {"original": "SnowballProjectile", "new": "_"},
+            {"original": "SnowballThrowEventLeft", "new": "_"},
+            {"original": "SnowballThrowEventReceiver", "new": "_"},
+            {"original": "SnowballThrowEventRight", "new": "_"},
+            {"original": "SnowballThrowable", "new": "_"}
+        ]
+    },
+    "No Sliding Sounds": {
+        "description": "It does the same exact thing as the silent hand taps mod, but works on the ice.",
+        "strings": [
+            {"original": "./**/Left Arm IK/SlideAudio", "new": "_"},
+            {"original": "./**/Right Arm IK/SlideAudio", "new": "_"}
+        ]
+    },
+    "Keep Cosmetics Everywhere": {
+        "description": "When you die to a ghost or acid, enter the soccer map, etc., you normally temporarily lose your cosmetics. This lets you keep them.",
+        "strings": [
+            {"original": "HideAllCosmetics", "new": "_"},
+            {"original": "RPC_HideAllCosmetics", "new": "_"}
+        ]
+    },
+    "Bad Name / Bad Code Anti-ban": {
+        "description": "Stops you from getting banned when you type in a bad name or bad code, but doesn't bypass it.",
+        "strings": [
+            {"original": "BADGORILLA", "new": "_"},
+            {"original": "gorilla", "new": "_"},
+            {"original": "telemetry_ggwp_event", "new": "_"}
+        ]
+    },
+    "Delete Hover Boards": {
+        "description": "When you grab someone's hoverboard, it just disappears. Works best when you are at the top of the leaderboard.",
+        "strings": [
+            {"original": "GrabBoard_RPC", "new": "_"},
+            {"original": "DropBoard_RPC", "new": "_"}
+        ]
+    },
+    "Glitch Soccer Ball": {
+        "description": "It glitches the soccer ball when you hold it, leading to all sorts of cool things, like free points when you grab it sometimes.",
+        "strings": [
+            {"original": "GrabBallRPC", "new": "_"},
+            {"original": "LaunchBallRPC", "new": "_"},
+            {"original": "RequestGrabBallRPC", "new": "_"},
+            {"original": "RequestLaunchBallRPC", "new": "_"},
+            {"original": "RequestThrowBallRPC", "new": "_"},
+            {"original": "TeleportBallRPC", "new": "_"},
+            {"original": "ThrowBallRPC", "new": "_"}
+        ]
+    },
+    "Slide Control": {
+        "description": "Gives you more control over where you slide on the ice.",
+        "strings": [
+            {"original": "slideVelocityLimit", "new": ""},
+            {"original": "velocityLimit", "new": ""}
+        ]
+    },
+    "No Fog": {
+        "description": "Removes the fog.",
+        "strings": [
+            {"original": "_ZoneGroundFogColor", "new": "_"},
+            {"original": "_ZoneGroundFogDepthFadeSq", "new": "_"},
+            {"original": "_ZoneGroundFogHeight", "new": "_"},
+            {"original": "_ZoneGroundFogHeightFade", "new": "_"}
+        ]
+    },
+    "Clear Lava": {
+        "description": "Makes the lava clear, just like the water mod.",
+        "strings": [
+            {"original": "_GlobalLavaResidueParams", "new": "_"},
+            {"original": "_GLOBAL_ZONE_LIQUID_TYPE__LAVA", "new": "_"},
+            {"original": "Lava", "new": "_"}
+        ]
+    },
+    "No Lava Tag": {
+        "description": "Makes it so that the lava doesn't tag you.",
+        "strings": [
+            {"original": "PlayerTouchedLavaRPC", "new": "_"},
+            {"original": "ReportContactWithLavaRPC", "new": "_"}
+        ]
+    },
+    "Remove Suspicious Strings": {
+        "description": "There is a string called discord_token in the metadata, a lil bit sus. This removes that.",
+        "strings": [
+            {"original": "discord_token", "new": "no"},
+            {"original": "http://someone.is.screwing.with.the.headers.com/", "new": "_"}
+        ]
+    }
+}
